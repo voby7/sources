@@ -1,0 +1,23 @@
+{
+  "compilerOptions": {
+    "target": "ES2020", // Modern JavaScript target for Node.js compatibility
+    "module": "NodeNext", // Required for .mts → .mjs
+    "moduleResolution": "NodeNext",
+    "outDir": "./lib", // Output folder
+    "declaration": true, // Generates type declarations
+    "declarationMap": true, // Generates .d.ts.map files
+    "sourceMap": true, // Generates .map files for source maps
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+    "strict": true,
+    "skipLibCheck": true, // Speeds up compilation
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "incremental": true, // Faster incremental builds
+    "tsBuildInfoFile": "./.tsbuildinfo",
+    "resolveJsonModule": true, // Optional: allows importing  JSON
+    "allowJs": true
+  },
+  "include": ["src/**/*.ts", "src/**/*.mts", "src/**/*.js"], // Include .mts and .js files
+  "exclude": ["node_modules", "lib", "seyfert-main"]
+}

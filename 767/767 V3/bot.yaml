@@ -1,0 +1,7 @@
+log_webhook: "" # optional webhook to log command usage.
+owner_id: "" # optional if you want to blacklist users, eval, or restart the bot.
+required_server_id: "" # optional. if set, only users in this server can use the bot
+required_role_id: "" # optional. if set, users need this role in the required server
+server_invite: "https://discord.gg/xAeKGTD8Et"
+token: "MTQ3MTA1NzY4NDUwNDY0MTU4Ng.G6YLV7.ubnzX1hxFiFlpMu3OEGrP1sG503ATYpW0ZeknY"
+client_id: "1471057684504641586"

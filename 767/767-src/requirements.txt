@@ -1,0 +1,6 @@
+uvloop
+git+https://github.com/Rapptz/discord.py.git
+aiosonic
+lmdb
+python-dotenv
+pyyaml

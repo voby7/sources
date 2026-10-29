@@ -1,0 +1,18 @@
+[project]
+name = "777-raid-bot"
+version = "0.0.1"
+description = "777 raid bot"
+readme = "none"
+requires-python = ">=3.11"
+
+dependencies = [
+    "discord-py",
+    "aiohttp",
+    "python-dotenv",
+    "pyyaml",
+    "lmdb",
+    "onecache",
+]
+
+[tool.uv]
+managed = false
